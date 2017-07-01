@@ -11,11 +11,11 @@ Write a class named "PrimeFactors" that has one static method: generate.
 • The generate method takes an integer argument and returns a collection of integers. That list contains the prime factors in numerical sequence.
  
 Examples
-• generate(2) = [2]
-• generate(3) = [3]
-• generate(4) = [2,2]
-• generate(6) = [2,3]
-• generate(8) = [2,2,2]
-• generate(9) = [3,3]
-• generate(10)=[2,5]
-• generate(12) = [2,2,3]
+   • generate(2) = [2]
+   • generate(3) = [3]
+   • generate(4) = [2,2]
+   • generate(6) = [2,3]
+   • generate(8) = [2,2,2]
+   • generate(9) = [3,3]
+   • generate(10)=[2,5]
+   • generate(12) = [2,2,3]
