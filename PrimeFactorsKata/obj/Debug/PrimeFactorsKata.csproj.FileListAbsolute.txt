@@ -1,0 +1,9 @@
+C:\Dev\Katas\PrimeFactorsKata\PrimeFactorsKata\bin\Debug\PrimeFactorsKata.dll
+C:\Dev\Katas\PrimeFactorsKata\PrimeFactorsKata\bin\Debug\PrimeFactorsKata.pdb
+C:\Dev\Katas\PrimeFactorsKata\PrimeFactorsKata\bin\Debug\NFluent.dll
+C:\Dev\Katas\PrimeFactorsKata\PrimeFactorsKata\bin\Debug\nunit.framework.dll
+C:\Dev\Katas\PrimeFactorsKata\PrimeFactorsKata\bin\Debug\NFluent.pdb
+C:\Dev\Katas\PrimeFactorsKata\PrimeFactorsKata\bin\Debug\nunit.framework.xml
+C:\Dev\Katas\PrimeFactorsKata\PrimeFactorsKata\obj\Debug\PrimeFactorsKata.csprojResolveAssemblyReference.cache
+C:\Dev\Katas\PrimeFactorsKata\PrimeFactorsKata\obj\Debug\PrimeFactorsKata.dll
+C:\Dev\Katas\PrimeFactorsKata\PrimeFactorsKata\obj\Debug\PrimeFactorsKata.pdb
