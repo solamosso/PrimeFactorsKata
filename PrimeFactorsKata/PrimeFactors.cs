@@ -5,7 +5,7 @@ namespace PrimeFactorsKata
 {
     public class PrimeFactors
     {
-        public static List<int> ComputePrimeFactorsFor(int number)
+        public static List<int> ComputePrimeFactors(int number)
         {
             var primeFactors = new List<int>();
             while (number > 1)
