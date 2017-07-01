@@ -31,7 +31,7 @@ namespace PrimeFactorsKata
         [Test, TestCaseSource(primeFactorsTestCases)]
         public void should_retrun_primes_numbers_given_input(int number, List<int> primeNumbers)
         {
-            var actual = PrimeFactors.ComputePrimeFactorsFor(number);
+            var actual = PrimeFactors.ComputePrimeFactors(number);
             Check.That(actual).ContainsExactly(primeNumbers);
         }
 
