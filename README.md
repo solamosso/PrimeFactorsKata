@@ -19,4 +19,3 @@ Examples
 • generate(9) = [3,3]
 • generate(10)=[2,5]
 • generate(12) = [2,2,3]
- 
