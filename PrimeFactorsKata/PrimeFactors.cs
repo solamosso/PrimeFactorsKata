@@ -10,14 +10,12 @@ namespace PrimeFactorsKata
             var primeFactors = new List<int>();
             while (number > 1)
             {
-                for (int primeNumber = 2; primeNumber <= number; primeNumber++)
+                for (var primeNumber = 2; primeNumber <= number; primeNumber++)
                 {
-                    if (number.IsDivisibleBy(primeNumber))
-                    {
-                        primeFactors.Add(primeNumber);
-                        number /= primeNumber;
-                        break;
-                    }
+                    if (!number.IsDivisibleBy(primeNumber)) continue;
+                    primeFactors.Add(primeNumber);
+                    number /= primeNumber;
+                    break;
                 }
             }
             return primeFactors;
@@ -35,7 +33,6 @@ namespace PrimeFactorsKata
                 primeFactors.AddRange(Generate(number / primeNumber));
                 break;
             }
-
             return primeFactors;
         }
 
