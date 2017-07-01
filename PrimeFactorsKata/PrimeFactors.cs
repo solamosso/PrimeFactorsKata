@@ -5,7 +5,7 @@ namespace PrimeFactorsKata
 {
     public class PrimeFactors
     {
-        public static List<int> Generate(int number)
+        public static List<int> ComputePrimeFactorsFor(int number)
         {
             var primeFactors = new List<int>();
             while (number > 1)
@@ -24,7 +24,7 @@ namespace PrimeFactorsKata
         }
 
 
-        public static List<int> GenerateMethod2(int number)
+        public static List<int> Generate(int number)
         {
             if (number < 1) throw new Exception("The number should be greater or equal to 2");
             var primeFactors = new List<int>();
@@ -32,7 +32,7 @@ namespace PrimeFactorsKata
             {
                 if (!number.IsDivisibleBy(primeNumber)) continue;
                 primeFactors.Add(primeNumber);
-                primeFactors.AddRange(GenerateMethod2(number / primeNumber));
+                primeFactors.AddRange(Generate(number / primeNumber));
                 break;
             }
 

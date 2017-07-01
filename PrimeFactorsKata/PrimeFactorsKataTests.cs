@@ -31,21 +31,21 @@ namespace PrimeFactorsKata
         [Test, TestCaseSource(primeFactorsTestCases)]
         public void should_retrun_primes_numbers_given_input(int number, List<int> primeNumbers)
         {
-            var actual = PrimeFactors.Generate(number);
+            var actual = PrimeFactors.ComputePrimeFactorsFor(number);
             Check.That(actual).ContainsExactly(primeNumbers);
         }
 
         [Test, TestCaseSource(primeFactorsTestCases)]
         public void should_retrun_primes_numbers_given_input_method2(int number, List<int> primeNumbers)
         {
-            var actual = PrimeFactors.GenerateMethod2(number);
+            var actual = PrimeFactors.Generate(number);
             Check.That(actual).ContainsExactly(primeNumbers);
         }
 
         [Test]
         public void should_return_throw_exception_when_input_less_than_1()
         {
-            Check.ThatCode(() => PrimeFactors.GenerateMethod2(-1)).Throws<Exception>().WithMessage("The number should be greater or equal to 2");
+            Check.ThatCode(() => PrimeFactors.Generate(-1)).Throws<Exception>().WithMessage("The number should be greater or equal to 2");
         }
 
     }
